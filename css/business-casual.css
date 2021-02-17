@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background-color: #919F89;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+  font-family: 'Cinzel', serif;
 }
 
 p {
@@ -31,21 +31,20 @@ p {
 
 .site-heading {
   margin-top: 5rem;
-  margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: 'Cinzel', serif;
 }
 
 .site-heading .site-heading-upper {
   display: block;
-  font-size: 2rem;
-  font-weight: 800;
+  font-size: 5rem;
+  font-weight: 100;
 }
 
 .site-heading .site-heading-lower {
-  font-size: 5rem;
-  font-weight: 100;
+  font-size: 2rem;
+  font-weight: 800;
   line-height: 4rem;
 }
 
@@ -60,14 +59,14 @@ p {
 
 .section-heading .section-heading-upper {
   display: block;
-  font-size: 1rem;
-  font-weight: 800;
+  font-size: 3rem;
+  font-weight: 100;
 }
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
-  font-weight: 100;
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 .bg-faded {
@@ -75,12 +74,12 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Raleway';
+  background-color: #919F89;
+  font-family: 'Cinzel', serif;
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #CDDAD8;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -89,7 +88,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #CDDAD8;
 }
 
 @media (min-width: 992px) {
@@ -100,7 +99,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #CDDAD8;
   }
 }
 
@@ -145,7 +144,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: #919F89;
 }
 
 .cta .cta-inner {
@@ -211,7 +210,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color: #CDDAD8;
 }
 
 @media (min-width: 992px) {
@@ -230,11 +229,11 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #CDDAD8 !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #CDDAD8 !important;
 }
 
 .btn {
@@ -242,15 +241,19 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #98A7AC;
+  border-color: #98A7AC;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #CDDAD8;
+  border-color: #CDDAD8;
 }
 
 .font-weight-light {
   font-weight: 100 !important;
+}
+caption{
+    font-size: 1rem;
+    text-align: left;
 }
