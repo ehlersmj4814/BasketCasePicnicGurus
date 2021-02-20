@@ -30,7 +30,6 @@ p {
 }
 
 .site-heading {
-  margin-top: 5rem;
   text-transform: uppercase;
   line-height: 1;
   font-family: 'Cinzel', serif;
@@ -50,7 +49,7 @@ p {
 
 .page-section {
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
 .section-heading {
@@ -59,7 +58,7 @@ p {
 
 .section-heading .section-heading-upper {
   display: block;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 100;
 }
 
@@ -71,6 +70,18 @@ p {
 
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
+}
+
+.social{
+    width: 130px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.social ul {
+    list-style:none;
+}
+.social img{
+    max-width: 30px;
 }
 
 #mainNav {
@@ -252,4 +263,8 @@ p {
 
 .font-weight-light {
   font-weight: 100 !important;
-}s
+}
+
+.attrib, .attrib a{
+    color: rgba(47, 23, 15, 0.9);
+}
