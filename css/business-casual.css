@@ -25,6 +25,10 @@ p {
   line-height: 1.75;
 }
 
+h3 a{
+    font-size:1.2rem;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -73,7 +77,7 @@ p {
 }
 
 .social{
-    width: 130px;
+    width: 167px;
     margin-top: 1rem;
     margin-left: 1rem;
 }
