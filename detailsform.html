@@ -149,7 +149,14 @@
 		  </div>
 		  <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
 			<div class="panel-body px-3 mb-4">
-			  <p></p>
+<form id="APOU" action="https://formspree.io/f/mvovjgqw" method="POST">
+  <label>Email:</label>
+  <input type="email" name="email" />
+  <label>Message:</label>
+  <input type="text" name="message" />
+  <button id="APOU-button">Submit</button>
+  <p id="APOU-status"></p>
+</form>
 			</div>
 		  </div>
 		</div>
@@ -163,7 +170,14 @@
 		  </div>
 		  <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
 			<div class="panel-body px-3 mb-4">
-			  <p></p>
+<form id="lpece" action="https://formspree.io/f/mrgowblr" method="POST">
+  <label>Email:</label>
+  <input type="email" name="email" />
+  <label>Message:</label>
+  <input type="text" name="message" />
+  <button id="lpece-button">Submit</button>
+  <p id="lpece-status"></p>
+</form>
 			</div>
 		  </div>
 		</div>
@@ -177,7 +191,14 @@
 		  </div>
 		  <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
 			<div class="panel-body px-3 mb-4">
-			  <p></p>
+<form id="TBCLTP" action="https://formspree.io/f/xbjpvlkw" method="POST">
+  <label>Email:</label>
+  <input type="email" name="email" />
+  <label>Message:</label>
+  <input type="text" name="message" />
+  <button id="TBCLTP-button">Submit</button>
+  <p id="TBCLTP-status"></p>
+</form>
 			</div>
 		  </div>
 		</div>
@@ -185,13 +206,20 @@
 		  <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
 			<h3 class="panel-title">
 			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
-				Picnic and A Show
+				Picnic and a Show
 			  </a>
 			</h3>
 		  </div>
 		  <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
 			<div class="panel-body px-3 mb-4">
-			  <p></p>
+<form id="PAASAHMN" action="https://formspree.io/f/mnqoknzr" method="POST">
+  <label>Email:</label>
+  <input type="email" name="email" />
+  <label>Message:</label>
+  <input type="text" name="message" />
+  <button id="PAASAHMN-button">Submit</button>
+  <p id="PAASAHMN-status"></p>
+</form>
 			</div>
 		  </div>
 		</div>
@@ -199,13 +227,20 @@
 		  <div class="panel-heading p-3 mb-3" role="tab" id="heading5">
 			<h3 class="panel-title">
 			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
-				I&#39;ll Weave you to it
+				I&#39;ll Weave You to It
 			  </a>
 			</h3>
 		  </div>
 		  <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
 			<div class="panel-body px-3 mb-4">
-			  <p></p>
+<form id="ILYTI" action="https://formspree.io/f/xjvpqkod" method="POST">
+  <label>Email:</label>
+  <input type="email" name="email" />
+  <label>Message:</label>
+  <input type="text" name="message" />
+  <button id="ILYTI-button">Submit</button>
+  <p id="ILYTI-status"></p>
+</form>
 			</div>
 		  </div>
 		</div>
@@ -325,6 +360,247 @@
     xhr.send(data);
   }
 </script>
+<!--JavaScript for APOU form-->
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("APOU");
+    var button = document.getElementById("APOU-button");
+    var status = document.getElementById("APOU-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
+<!--JavaScript for LPECE-->
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("lpece");
+    var button = document.getElementById("lpece-button");
+    var status = document.getElementById("lpece-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
+<!--JavaScript for TBCLTP-->
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("TBCLTP");
+    var button = document.getElementById("TBCLTP-button");
+    var status = document.getElementById("TBCLTP-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
+<!--JavaScript for PAASAHMN-->
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("PAASAHMN");
+    var button = document.getElementById("PAASAHMN-button");
+    var status = document.getElementById("PAASAHMN-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
+<!--JavaScript for ILYTI-->
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("ILYTI");
+    var button = document.getElementById("ILYTI-button");
+    var status = document.getElementById("ILYTI-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
+
 
 </body>
 </html>
