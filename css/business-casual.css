@@ -75,13 +75,16 @@ h3 a{
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
 }
-
 .social{
     width: 167px;
-    margin-top: 1rem;
+    margin-top: .75rem;
     margin-left: 1rem;
+    position:absolute;
 }
-.social ul {
+.pkg{
+    position:relative;
+}
+.social ul{
     list-style:none;
 }
 .social img{
@@ -274,4 +277,7 @@ h3 a{
 }
 .panel-title a, .panel-title a:hover, .panel-title a:visited, .panel-title a:active, .panel-title a:link{
     color:rgba(255, 255, 255, 0.7);
+}
+.basket{
+    list-style-image: url();
 }
