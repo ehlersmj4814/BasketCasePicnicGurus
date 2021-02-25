@@ -271,10 +271,6 @@ h3 a{
 .font-weight-light {
   font-weight: 100 !important;
 }
-
-.attrib, .attrib a{
-    color: rgba(47, 23, 15, 0.9);
-}
 .panel-title a, .panel-title a:hover, .panel-title a:visited, .panel-title a:active, .panel-title a:link{
     color:rgba(255, 255, 255, 0.7);
 }
