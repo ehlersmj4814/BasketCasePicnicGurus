@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lora';
-  background-color: #919F89;
+  background-color: #627259;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -92,21 +92,21 @@ h3 a{
 }
 
 #mainNav {
-  background-color: #919F89;
+  background-color: #627259;
   font-family: 'Cinzel', serif;
 }
 
 #mainNav .navbar-brand {
-  color: #CDDAD8;
+  color: #FFFFFF;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.7);
+  color: #FFFFFF;
   font-weight: 800;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #CDDAD8;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 @media (min-width: 992px) {
@@ -117,7 +117,7 @@ h3 a{
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #CDDAD8;
+    color: rgba(255, 255, 255, 0.4);
   }
 }
 
@@ -162,7 +162,7 @@ h3 a{
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #919F89;
+  background-color: #627259;
 }
 
 .cta .cta-inner {
@@ -228,7 +228,7 @@ h3 a{
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #CDDAD8;
+  color: #FFFFFF;
 }
 
 @media (min-width: 992px) {
@@ -247,11 +247,11 @@ h3 a{
 }
 
 .text-primary {
-  color: #CDDAD8 !important;
+  color: #FFFFFF !important;
 }
 
 .bg-primary {
-  background-color: #CDDAD8 !important;
+  background-color: #FFFFFF !important;
 }
 
 .btn {
@@ -259,20 +259,20 @@ h3 a{
 }
 
 .btn-primary {
-  background-color: #98A7AC;
+  background-color: #5C6A6E;
   border-color: #98A7AC;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #CDDAD8;
-  border-color: #CDDAD8;
+  background-color: #92B1B6;
+  border-color: #92B1B6;
 }
 
 .font-weight-light {
   font-weight: 100 !important;
 }
 .panel-title a, .panel-title a:hover, .panel-title a:visited, .panel-title a:active, .panel-title a:link{
-    color:rgba(255, 255, 255, 0.7);
+    color: #FFFFFF;
 }
 .basket{
     list-style-image: url();
