@@ -115,7 +115,7 @@ h3 a{
   font-family: 'Cinzel', serif;
 }
 
-#mainNav .navbar-brand {
+#mainNav .navbar-brand, .white {
   color: #FFFFFF;
 }
 
